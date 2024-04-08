@@ -149,12 +149,12 @@ a {
     }
     
     .accordion {
-        color:  #;
-        cursor: pointer;
-        width: 100%;
-        border: none;
-        outline: none;
-        transition: 0.4s;
+        color: #;
+        cursor:pointer;
+        width:100%;
+        border:none;
+        outline:none;
+        transition:0.4s;
     }
     
     .accordion:after {
@@ -206,6 +206,24 @@ a {
     }
     
 }
+
+@media screen and (min-width: 900px) {
+    .photogallery{ 
+        display: grid;
+        grid-template-columns: 1fr, 1fr, 1fr;
+        justify-content: center;
+        justify-content: space-around;
+    }
+
+    .recipephotos {
+        display:grid;
+        grid-template-columns: 1fr,1fr,1fr;
+        justify-content: center;
+        justify-content: space-around;
+
+    }
+
+} 
 
 @media (prefers-reduced-motion: reduce) {
     h1 {
